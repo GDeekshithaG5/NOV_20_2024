@@ -1,0 +1,92 @@
+'''
+Strings to declare the data.
+There are 3 ways:
+using single quotes
+using double quotes
+using triple quotes
+
+
+#using single quotes
+name='srini'
+print("Single quotes:",name)
+
+#using double quotes
+city="hyderabad"
+print("Double quotes:",city)
+
+#using triple quotes
+address='''kphp pin:500078'''
+print("Triple quotes:",address)
+OUTPUT:
+Single quotes: srini
+double quotes: hyderabad
+triple quotes: kphp pin:500078
+
+
+#There are 3 ways to retrieve elements from the string
+1.Forward index/positive index/left to right index
+2.Backward index/negative index/right to left read
+3.Slice operator(:)used to extract range of values
+
+Eg:
+#Forward index
+string="software solutions"
+print(string[0])
+print(string[1])
+print(string[2])
+print(string[3])
+OUTPUT:
+s
+o
+f
+t
+
+#Backward index
+string="software solutions"
+print(string[-1])
+print(string[-2])
+print(string[-3])
+print(string[-4])
+print(string[-5])
+print(string[-6])
+print(string[-7])
+print(string[-8])
+print(string[-9])
+OUTPUT:
+s
+n
+o
+i
+t
+u
+l
+o
+s
+
+#Slice indicates range from lower to upper according user window
+use : colon
+display tech as the output
+
+string="software tech solutions"
+print(string[9:13])
+print(string[4:9])
+print(string[::-1])
+OUTPUT:
+tech
+ware 
+snoitulos hcet erawtfos
+'''
+
+#Operation applied by strings
+'''
+Comparision of string 
+Concatenaion of string
+repetion of string
+length of string
+count of string
+index of string
+find of string
+replace of string
+joining of string
+split of string
+'''
